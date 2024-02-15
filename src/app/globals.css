@@ -105,3 +105,46 @@ a {
     color-scheme: dark;
   }
 }
+
+.circular-frame {
+  width: 300px; /* Adjust this value according to your preference */
+  height: 300px; /* Adjust this value according to your preference */
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: 50px;
+}
+
+.profile-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the circular frame */
+}
+
+.top-margin-20{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  align-items: center;
+  text-align: center;
+  max-width: 45%;
+}
+
+
+.top-margin-40{
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  align-items: center;
+  text-align: center;
+  max-width: 50%;
+}
+
+.item-seperation-20{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.item-seperation-20 > * {
+  margin-right: 20px;
+}
