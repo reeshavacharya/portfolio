@@ -4,12 +4,12 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #000000;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #000000;
     --foreground: #ededed;
   }
 }
@@ -24,4 +24,163 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  width: 60%;
+  gap: 100px;
+}
+
+.stacks {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 50px;
+  width: 60%;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.text-space {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  width: 90%;
+  /* text-align: justify; */
+  /* background-color: red; */
+}
+
+.circular-frame {
+  width: 300px;
+  /* Adjust this value according to your preference */
+  height: 300px;
+  /* Adjust this value according to your preference */
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.rounded-frame {
+  border-radius: 15px; /* Adjust the radius to control the roundness */
+  overflow: hidden; /* Ensures that the image does not overflow the rounded corners */
+}
+
+.profile-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* Ensures the image covers the circular frame */
+}
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
 }
