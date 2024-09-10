@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Contact from "./Contact";
-
+import mugshot from "../../public/mugshot.jpeg";
 const Hello = () => {
   return (
     <>
@@ -12,23 +12,18 @@ const Hello = () => {
           </div>
           <p className="poppins-semibold">
             {" "}
-            I&apos;m Reeshav Acharya. I&apos;m a passionate software engineer specializing
-            in Web3 and blockchain technologies.
+            I&apos;m Reeshav Acharya. I&apos;m a passionate software engineer
+            specializing in Web3 and blockchain technologies.
           </p>
           <p className="poppins-semibold">
-            I&apos;m constantly exploring new challenges and excited to contribute to
-            the evolving digital landscape.
+            I&apos;m constantly exploring new challenges and excited to
+            contribute to the evolving digital landscape.
           </p>
           <p className="poppins-extralight">📍 Kathmandu, Nepal</p>
           <Contact />
         </div>
         <div className="circular-frame">
-          <Image
-            src="/mugshot.jpeg"
-            alt="Profile Photo"
-            width={300}
-            height={300}
-          />
+          <Image src={mugshot} alt="Profile Photo" width={300} height={300} />
         </div>
       </div>
     </>

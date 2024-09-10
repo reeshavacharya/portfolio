@@ -1,9 +1,9 @@
 import Image from "next/image";
-
+import vsCodeImage from "../../public/vscode.jpg";
 const AboutMe = () => {
   return (
     <div className="stacks">
-      <Image src="/vscode.jpg" width={500} height={500} alt={"python"} />
+      <Image src={vsCodeImage} width={500} height={500} alt={"python"} />
       <div className="grid gap-6">
         <div className="flex gap-4">
           <h1 className="poppins-regular text-4xl font-bold">About Me</h1>

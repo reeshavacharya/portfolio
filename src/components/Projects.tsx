@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { FaLink, FaGithub } from "react-icons/fa";
-
+import kuberIDE from "../../public/kuberide.png";
+import PriorityWallet from "../../public/priority.jpg";
 const Projects = () => {
   return (
     <>
@@ -41,7 +42,7 @@ const Projects = () => {
             just couple of minutes.
           </p>
         </div>
-        <Image src="/kuberide.png" width={600} height={600} alt={"python"} />
+        <Image src={kuberIDE} width={600} height={600} alt={"python"} />
       </div>
       {/* ----------------------------------------------------------------------------------------------------------------------- */}
       <div className="stacks">
@@ -95,7 +96,7 @@ const Projects = () => {
       </div>
       {/* ----------------------------------------------------------------------------------------------------------------------- */}
       <div className="stacks">
-        <Image src="/priority.jpg" width={600} height={600} alt={"python"} />
+        <Image src={PriorityWallet} width={600} height={600} alt={"python"} />
         <div className="grid gap-6">
           <h1 className="poppins-thin text-3xl font-bold">
             Cardano Priority Wallet
