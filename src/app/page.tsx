@@ -4,7 +4,6 @@ import Education from "@/components/Education";
 import Hello from "@/components/Hello";
 import Projects from "@/components/Projects";
 import TechStack from "@/components/TechStack";
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -16,7 +15,9 @@ export default function Home() {
         <AboutMe />
         <Projects />
         <Education />
-        <Contact />
+        <div className="grid items-center justify-items-center">
+          <Contact />
+        </div>
       </div>
     </div>
   );
