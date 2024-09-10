@@ -126,14 +126,14 @@ const Projects = () => {
       </div>
       {/* ----------------------------------------------------------------------------------------------------------------------- */}
       <p className="poppins-thin">
-        View{" "}
+        Visit{" "}
         <a
-          href="/CV.pdf"
+          href="https://github.com/reeshavacharya"
           target="_blank"
           rel="noopener noreferrer"
           className="text-blue-500 underline"
         >
-          my resume
+          my github
         </a>{" "}
         to know more.
       </p>
