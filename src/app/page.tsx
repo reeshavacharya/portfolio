@@ -8,8 +8,7 @@ import TechStack from "@/components/TechStack";
 export default function Home() {
   return (
     <div>
-      <div className="grid items-center justify-items-center min-h-screen">
-        &nbsp;
+      <div className="grid items-center justify-items-center min-w-screen min-h-screen gap-8 p-4 sm:p-6 lg:p-6">
         <Hello />
         <TechStack />
         <AboutMe />

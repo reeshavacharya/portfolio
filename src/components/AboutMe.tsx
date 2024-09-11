@@ -2,14 +2,16 @@ import Image from "next/image";
 import vsCodeImage from "../../public/vscode.jpg";
 const AboutMe = () => {
   return (
-    <div className="stacks">
-      <Image src={vsCodeImage} width={500} height={500} alt={"python"} />
-      <div className="grid gap-6">
-        <div className="flex gap-4">
+    <div className="items-center justify-items-center w-full lg:w-3/5 xl:w-3/5 grid lg:grid-cols-2 lg:gap-12 sm:gap-4">
+      <Image src={vsCodeImage} width={500} height={500} alt="VS Code" />
+      <div className="block sm:hidden">&nbsp;</div>
+      <div className="block md:hidden">&nbsp;</div>
+      <div className="grid gap-4 lg:gap-6 sm:mt-2">
+        <div className="flex items-center gap-4">
           <h1 className="poppins-regular text-4xl font-bold">About Me</h1>
-          <h1 className="text-5xl">👦🏻</h1>
+          <h1 className="text-5xl lg:text-5xl sm:text-6xl">👦🏻</h1>
         </div>
-        <p className="poppins-regular text-space">
+        <p className="poppins-regular text-base lg:text-lg">
           I am a dedicated software engineer with a passion for Web3, Blockchain
           and Decentralized Finance. With a solid foundation in developing
           decentralized applications (DApps), smart contracts, web applications,

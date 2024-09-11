@@ -31,8 +31,9 @@ body {
   justify-content: center;
   align-items: center;
   height: 50vh;
-  width: 60%;
+  /* width: 60%; */
   gap: 100px;
+  /* background-color: aliceblue; */
 }
 
 .stacks {
