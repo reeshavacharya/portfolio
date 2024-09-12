@@ -11,7 +11,7 @@ const AboutMe = () => {
           <h1 className="poppins-regular text-4xl font-bold">About Me</h1>
           <h1 className="text-5xl lg:text-5xl sm:text-6xl">👦🏻</h1>
         </div>
-        <p className="poppins-regular text-base lg:text-lg">
+        <p className="poppins-semibold lg:text-md leading-loose">
           I am a dedicated software engineer with a passion for Web3, Blockchain
           and Decentralized Finance. With a solid foundation in developing
           decentralized applications (DApps), smart contracts, web applications,

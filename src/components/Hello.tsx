@@ -14,17 +14,20 @@ const Hello = () => {
               </h1>
               <h1 className="text-4xl sm:text-5xl lg:text-6xl">👋🏼</h1>
             </div>
-            <p className="poppins-semibold">
+            <p className="poppins-semibold leading-loose">
               I&apos;m Reeshav Acharya. I&apos;m a passionate software engineer
               specializing in Web3 and blockchain technologies. I&apos;m
               constantly exploring new challenges and excited to contribute to
               the evolving digital landscape.
             </p>
-            <p className="poppins-semibold"></p>
-            <p className="poppins-extralight">📍 Kathmandu, Nepal</p>
-            <Contact />
+            <p className="poppins-extralight leading-loose">
+              📍 Kathmandu, Nepal
+            </p>
+            <div className="grid justify-center lg:justify-start">
+              <Contact />
+            </div>
           </div>
-          <div className="flex justify-center justify-center">
+          <div className="hidden md:grid justify-center">
             <div className="circular-frame w-48 h-48 sm:w-64 sm:h-64 lg:w-72 lg:h-72">
               <Image
                 src={mugshot}
