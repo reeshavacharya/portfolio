@@ -11,7 +11,7 @@ export default function Home() {
     <div>
       <div className="grid items-center justify-items-center min-w-screen min-h-screen gap-8 p-4 sm:p-6 lg:p-6">
         <Hello />
-        <div className="block md:hidden">
+        <div className="block lg:hidden">
           <Mugshot />
         </div>
         <TechStack />

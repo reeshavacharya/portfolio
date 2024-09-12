@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Contact from "./Contact";
 import mugshot from "../../public/mugshot.jpeg";
+import Mugshot from "./mugshot";
 
 const Hello = () => {
   return (
@@ -27,16 +28,8 @@ const Hello = () => {
               <Contact />
             </div>
           </div>
-          <div className="hidden md:grid justify-center">
-            <div className="circular-frame w-48 h-48 sm:w-64 sm:h-64 lg:w-72 lg:h-72">
-              <Image
-                src={mugshot}
-                alt="Profile Photo"
-                width={300}
-                height={300}
-                className="rounded-full object-cover"
-              />
-            </div>
+          <div className="hidden lg:grid justify-center">
+            <Mugshot />
           </div>
         </div>
       </div>
