@@ -32,7 +32,7 @@ const Projects = () => {
               <FaLink />
             </a>
           </div>
-          <p className="poppins-regular text-space">
+          <p className="poppins-semibold leading-loose">
             Kuber is an online plyaground for composing transactions in Cardano.
             Cardano Users can make transactions conveniently such as sending
             Ada/token to multiple addresses, minting tokens, etc. It can used by
@@ -57,7 +57,7 @@ const Projects = () => {
               <FaLink />
             </a>
           </div>
-          <p className="poppins-regular text-space">
+          <p className="poppins-semibold leading-loose">
             Multi-Sig is a sophisticated multi-signature platform on the Cardano
             blockchain, leveraging Plutus for robust smart contract
             implementation. This platform integrates both on-chain and off-chain
@@ -82,7 +82,7 @@ const Projects = () => {
               <FaGithub />
             </a>
           </div>
-          <p className="poppins-regular text-space">
+          <p className="poppins-semibold leading-loose">
             Decentralized exchange (DEX) matchmaker is designed to facilitate
             the exchange of tokens and NFTs within a liquidity pool. This system
             efficiently matches buy and sell orders by calculating and balancing
@@ -110,7 +110,7 @@ const Projects = () => {
               <FaLink />
             </a>
           </div>
-          <p className="poppins-regular text-space">
+          <p className="poppins-semibold leading-loose">
             The Cardano Priority Wallet is a Chrome extension developed to
             enhance transaction efficiency and fairness on the Cardano
             blockchain. It acts as a proxy for Cardano wallet extensions,

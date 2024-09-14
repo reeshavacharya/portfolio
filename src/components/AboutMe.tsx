@@ -6,7 +6,7 @@ const AboutMe = () => {
       <Image src={vsCodeImage} width={500} height={500} alt="VS Code" />
       <div className="block sm:hidden">&nbsp;</div>
       <div className="block md:hidden">&nbsp;</div>
-      <div className="grid gap-4 lg:gap-6 sm:mt-2">
+      <div className="grid gap-4 lg:gap-6">
         <div className="flex items-center gap-4">
           <h1 className="poppins-regular text-4xl font-bold">About Me</h1>
           <h1 className="text-5xl lg:text-5xl sm:text-6xl">👦🏻</h1>

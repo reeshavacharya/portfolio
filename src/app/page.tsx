@@ -16,9 +16,9 @@ export default function Home() {
         </div>
         <TechStack />
         <AboutMe />
-        <Projects />
+        {/* <Projects /> */}
         <Education />
-        <div className="grid items-center justify-items-center">
+        <div className="grid justify-center">
           <Contact />
         </div>
       </div>
