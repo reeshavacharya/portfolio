@@ -1,6 +1,5 @@
-import Image from "next/image";
+// import Image from "next/image";
 import Contact from "./Contact";
-import mugshot from "../../public/mugshot.jpeg";
 import Mugshot from "./mugshot";
 
 const Hello = () => {

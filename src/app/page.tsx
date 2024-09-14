@@ -3,7 +3,7 @@ import Contact from "@/components/Contact";
 import Education from "@/components/Education";
 import Hello from "@/components/Hello";
 import Mugshot from "@/components/mugshot";
-import Projects from "@/components/Projects";
+// import Projects from "@/components/Projects";
 import TechStack from "@/components/TechStack";
 
 export default function Home() {
