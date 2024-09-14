@@ -1,4 +1,3 @@
-// import Image from "next/image";
 import Contact from "./Contact";
 import Mugshot from "./mugshot";
 
