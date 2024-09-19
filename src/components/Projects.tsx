@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { FaLink, FaGithub, FaTwitter } from "react-icons/fa";
+import { FaLink, FaGithub } from "react-icons/fa";
 import kuberIDE from "../../public/kuberide.png";
 import PriorityWallet from "../../public/priority.jpg";
 import LinkedIcons from "./LinkedIcons";
