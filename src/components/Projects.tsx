@@ -1,7 +1,8 @@
 import Image from "next/image";
-import { FaLink, FaGithub } from "react-icons/fa";
+import { FaLink, FaGithub, FaTwitter } from "react-icons/fa";
 import kuberIDE from "../../public/kuberide.png";
 import PriorityWallet from "../../public/priority.jpg";
+import LinkedIcons from "./LinkedIcons";
 const Projects = () => {
   return (
     <div className="grid justify-center gap-12 w-full sm:w-full lg:w-3/5 xl:w-3/5">
@@ -16,20 +17,8 @@ const Projects = () => {
           <div className="grid gap-6">
             <h1 className="poppins-thin text-3xl font-bold">Kuber IDE</h1>
             <div className="flex gap-4 text-2xl">
-              <a
-                href="https://github.com/dQuadrant/kuber"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaGithub />
-              </a>
-              <a
-                href="https://kuberide.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaLink />
-              </a>
+              <LinkedIcons icon={<FaGithub />} link="https://github.com/dQuadrant/kuber" />
+              <LinkedIcons icon={<FaLink />} link="https://kuberide.com/" />
             </div>
             <p className="poppins-semibold leading-loose">
               Kuber is an online plyaground for composing transactions in
@@ -57,13 +46,7 @@ const Projects = () => {
           <div className="grid gap-6">
             <h1 className="poppins-thin text-3xl font-bold">Multi-Sig</h1>
             <div className="flex gap-4 text-2xl">
-              <a
-                href="https://multisig.cardanoapi.io/docs/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaLink />
-              </a>
+              <LinkedIcons icon={<FaLink />} link="https://multisig.cardanoapi.io/docs/" />
             </div>
             <p className="poppins-semibold leading-loose">
               Multi-Sig is a sophisticated multi-signature platform on the
@@ -83,13 +66,7 @@ const Projects = () => {
           <div className="grid gap-6">
             <h1 className="poppins-thin text-3xl font-bold">DEx Matchmaker</h1>
             <div className="flex gap-4 text-2xl">
-              <a
-                href="https://github.com/reeshavacharya/minswap-dex"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaGithub />
-              </a>
+              <LinkedIcons icon={<FaGithub />} link="https://github.com/reeshavacharya/minswap-dex" />
             </div>
             <p className="poppins-semibold leading-loose">
               Decentralized exchange (DEX) matchmaker is designed to facilitate
@@ -120,13 +97,7 @@ const Projects = () => {
               Cardano Priority Wallet
             </h1>
             <div className="flex gap-4 text-2xl">
-              <a
-                href="https://chromewebstore.google.com/detail/cardano-priority-wallet/olphehilbcklnaaeifndonaeadjgjlid"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaLink />
-              </a>
+              <LinkedIcons icon={<FaLink />} link="https://chromewebstore.google.com/detail/cardano-priority-wallet/olphehilbcklnaaeifndonaeadjgjlid" />
             </div>
             <p className="poppins-semibold leading-loose">
               The Cardano Priority Wallet is a Chrome extension developed to
@@ -163,48 +134,3 @@ const Projects = () => {
 };
 
 export default Projects;
-
-//   {/* ----------------------------------------------------------------------------------------------------------------------- */}
-//   <div className="stacks">
-//     <Image src={PriorityWallet} width={600} height={600} alt={"python"} />
-//     <div className="grid gap-6">
-//       <h1 className="poppins-thin text-3xl font-bold">
-//         Cardano Priority Wallet
-//       </h1>
-//       <div className="flex gap-4 text-2xl">
-// <a
-//   href="https://chromewebstore.google.com/detail/cardano-priority-wallet/olphehilbcklnaaeifndonaeadjgjlid"
-//   target="_blank"
-//   rel="noopener noreferrer"
-// >
-//   <FaLink />
-// </a>
-//       </div>
-//       <p className="poppins-semibold leading-loose">
-// The Cardano Priority Wallet is a Chrome extension developed to
-// enhance transaction efficiency and fairness on the Cardano
-// blockchain. It acts as a proxy for Cardano wallet extensions,
-// leveraging Maximal Extractable Value (MEV) principles to optimize
-// transaction parameters. This tool prioritizes transactions by
-// analyzing fee structures and adjusting execution units, which
-// accelerates minting processes and reduces overall fees. By
-// dynamically managing transaction fees, the extension ensures prompt
-// and equitable processing, improving user experience and transaction
-// confirmation times on the Cardano network.
-//       </p>
-//     </div>
-//   </div>
-//   {/* ----------------------------------------------------------------------------------------------------------------------- */}
-// <p className="poppins-thin">
-//   Visit{" "}
-//   <a
-//     href="https://github.com/reeshavacharya"
-//     target="_blank"
-//     rel="noopener noreferrer"
-//     className="text-blue-500 underline"
-//   >
-//     my github
-//   </a>{" "}
-//   to know more.
-// </p>
-// </>
