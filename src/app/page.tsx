@@ -1,6 +1,7 @@
 import AboutMe from "@/components/AboutMe";
 import Contact from "@/components/Contact";
 import Education from "@/components/Education";
+import Experience from "@/components/Experience";
 import Hello from "@/components/Hello";
 import Mugshot from "@/components/mugshot";
 import Projects from "@/components/Projects";
@@ -14,12 +15,13 @@ export default function Home() {
         <div className="block lg:hidden">
           <Mugshot />
         </div>
-        <TechStack />
-        <AboutMe />
-        <Projects />
-        <Education />
+        {/* <TechStack /> */}
+        {/* <AboutMe /> */}
+        {/* <Projects /> */}
+        {/* <Education /> */}
+        {/* <Experience /> */}
         <div className="grid justify-center">
-          <Contact />
+          {/* <Contact /> */}
         </div>
       </div>
     </div>

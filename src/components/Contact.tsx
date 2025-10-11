@@ -24,14 +24,14 @@ const Contact = () => {
       </h1>
       <h1 className="text-2xl">
         <a
-          href="mailto:reeshav99acharya@gmail.com"
+          href="mailto:reeshav@usf.edu"
           target="_blank"
           rel="noopener noreferrer"
         >
           <IoIosMail />
         </a>
       </h1>
-      <h1 className="text-2xl">
+      {/* <h1 className="text-2xl">
         <a
           href="https://discord.com/users/747436557400670268"
           target="_blank"
@@ -39,7 +39,7 @@ const Contact = () => {
         >
           <FaDiscord />
         </a>
-      </h1>
+      </h1> */}
     </div>
   );
 };
