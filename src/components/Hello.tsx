@@ -5,7 +5,7 @@ const Hello = () => {
   return (
     <>
       <div className="w-full sm:w-full lg:w-3/5 xl:w-3/5">
-        <div className="grid gap-1 lg:grid-cols-3 items-center">
+        <div className="grid gap-4 lg:grid-cols-3 items-center">
           <div className="col-span-2 grid lg:gap-2 sm:p-4 lg:p-6">
             <div className="flex items-center gap-2">
               <h1 className="poppins-bold text-4xl sm:text-3xl lg:text-4xl font-bold">
@@ -21,19 +21,9 @@ const Hello = () => {
             </h2>
             <div className="flex items-center gap-2">
               <h2 className="poppins-semibold sm:text-xl lg:text-xl font-bold">
-                📍
-              </h2>
-              <h2 className="poppins-semibold sm:text-xl lg:text-xl font-bold">
-                University of South Florida
-              </h2>
-              <h2 className="poppins-semibold sm:text-xl lg:text-xl font-bold">
-                |
-              </h2>
-              <h2 className="poppins-semibold sm:text-xl lg:text-xl font-bold">
-                Tampa, FL - USA
+                📍University of South Florida | Tampa, FL - USA
               </h2>
             </div>
-
             <div className="grid justify-center lg:justify-start">
               <Contact />
             </div>
